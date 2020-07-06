@@ -346,8 +346,29 @@ User API for iBuildApp Timesheets, handling getting user information, creating/d
        "id": 1,
        "email": "test@test.com",
        "first_name": "John",
-       "last_name": "Doe"
-   }
+       "last_name": "Doe",
+       "sex": "male",
+        "position": "Manager",
+        "hourly_rate": 5.6,
+        "roles": [
+          "ROLE_USER"
+        ],
+        "created": 1583905200,
+        "updated": 1583905200,
+        "exported": 1583905200,
+        "activated": true,
+        "settings": [
+          {}
+        ],
+        "picture": "url_to_user_avatar",
+        "paid_hours": 0,
+        "unapproved_hours": 0,
+        "teams": [
+          0
+        ],
+        "notes": "string",
+        "birth_date": "1988-11-22"
+       }
 }
 ```
 
